@@ -6,6 +6,9 @@ body {
     color: #fff;
     line-height: 40px;  
 }
+.navbar-brand{
+    padding-top: 20px;
+}
 .container-fluid{
     background-color: #fff;
     color: #000000
@@ -32,7 +35,7 @@ body {
 }
 .container .col-lg-12:nth-child(4) {
     background-color: #0099CC;
-    height: 100px;  
+    height: auto;  
 }
 .container .col-lg-4:first-child {
     height: 200px;
@@ -70,9 +73,10 @@ body {
     height: auto;
     text-decoration: none !important;
 }
-.container .whyme1 .col-lg-12 {
+.container .why .col-lg-12:first-child {
     background-color: #E8E8E8;
-    height: 150px;
+    height: 120px;
+    padding-top: 20px;
 }
 .container .whyme .col-lg-4:first-child {
     height: 400px;
@@ -87,7 +91,7 @@ body {
     background-color: #E8E8E8 ;
 }
 .container .whyme .col-lg-12:nth-child(4) {
-    height: 150px;
+    height: 120px;
     background-color: #F0F0F0 ;
 }
 .container .whyme .col-lg-4:nth-child(5) {
