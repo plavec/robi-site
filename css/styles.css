@@ -13,18 +13,24 @@ body {
     
 }
 .container{
-    
+    max-width: 1000px;
 }
 .container .col-lg-12 {
     background-color: #fff;   
 }
+.container .col-lg-12:nth-child(1) {
+    background-color: #fff
+    margin-top: -20px;
+    height: 150px;
+    padding-top: 40px;
+}
 .container .col-lg-12:nth-child(2) {
     background-color: #F0F0F0 ;
-    height: 100px;
+    height: 150; 
 }
 .container .col-lg-12:nth-child(3) {
     background-color: #E8E8E8;
-    height: 100px;
+    height: 150px;
 }
 .container .col-lg-12:nth-child(4) {
     background-color: #0099CC;
@@ -55,14 +61,19 @@ body {
     background-color: grey;
 }
 /*button*/
-.container .col-lg-12:nth-child(2) {
+.container .buttons .col-lg-12:first-child {
+    background-color: #F0F0F0;
+    padding-top: 25px;
+    height: 100px;
+}
+.container .row .col-lg-12:nth-child(2) {
     background-color: #F0F0F0;
     padding-top: 5px;
-    height: 100px;
+    height: 150px;
 }
 .container .col-lg-12:nth-child(3) {
     background-color: #E8E8E8;
-    height: 100px;
+    height: 150px;
 }
 .container .whyme .col-lg-4:first-child {
     height: 400px;
@@ -77,12 +88,17 @@ body {
     background-color: #E8E8E8 ;
 }
 .container .whyme .col-lg-12:nth-child(4) {
-    height: 100px;
+    height: 150px;
     background-color: #F0F0F0 ;
 }
 .container .whyme .col-lg-4:nth-child(5) {
     height: 400px;
     background-color: #F0F0F0 ;
+}
+.container .whyme .col-lg-4 .btn {
+    background-color: #000000;
+    padding: 5px;
+    float: left;  
 }
 .btn-primary {
     background-color: #000000;
@@ -101,7 +117,7 @@ body {
 }
 
 
-
+    
 
 
 
